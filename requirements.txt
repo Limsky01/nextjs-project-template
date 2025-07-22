@@ -1,0 +1,33 @@
+# Steam Workshop Downloader - Зависимости
+# Установка: pip install -r requirements.txt
+
+# GUI Framework
+PyQt5>=5.15.0
+
+# HTTP requests
+requests>=2.25.0
+
+# Дополнительные утилиты
+urllib3>=1.26.0
+
+# Для работы с изображениями (опционально)
+Pillow>=8.0.0
+
+# Для криптографии (для Steam авторизации)
+cryptography>=3.4.0
+
+# Для парсинга HTML (если потребуется)
+beautifulsoup4>=4.9.0
+lxml>=4.6.0
+
+# Для логирования
+colorlog>=6.0.0
+
+# Для работы с JSON
+ujson>=4.0.0
+
+# Системные утилиты
+psutil>=5.8.0
+
+# Для работы с архивами
+py7zr>=0.16.0
